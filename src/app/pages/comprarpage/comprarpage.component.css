@@ -1,0 +1,30 @@
+.productbox {
+    color: white;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 10px black, 0px 0px 0px black;
+    padding: 20px;
+
+}
+
+.produto {
+    margin-top: 50px;
+    justify-content: center;
+}
+
+.btn_comprar {
+    padding: 10px 10px;
+    color: white;
+    background-color: rgb(44, 94, 44);
+    border-radius: 5px;
+    border: 1px solid #cecece;
+    justify-content: center;
+    text-decoration: none;
+}
+
+.botaoSeguir {
+    margin-top: 50px;
+}
+
+.texto {
+    margin-top: 40px;
+}

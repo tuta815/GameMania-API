@@ -1,0 +1,20 @@
+<div class="container">
+    <div class="row produto">
+        <div class="col-lg-6" *ngIf="comprarData">
+            <div class=" productbox">
+                <img [src]=comprarData.foto width="100%" />
+                <div class="texto">
+                    <h3>{{comprarData.titulo}}</h3>
+                    <p>{{comprarData.preco | currency:'BRL'}}</p>
+                    <p>{{comprarData.descricao}}</p>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+</div>
+<div class="text-center botaoSeguir">
+    <a routerLink="../../login" class="btn_comprar">Seguir para compra</a>
+</div>

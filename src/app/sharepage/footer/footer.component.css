@@ -1,0 +1,100 @@
+footer {
+    position: sticky;
+    top: 100%;
+    margin-top: 30px;
+    background: rgb(0, 0, 0);
+    box-shadow: 0px 0px 0px black, 0px 0px 10px black;
+}
+
+.rodape {
+    display: flex;
+    justify-content: space-between;
+}
+
+.links-footer {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    width: 400px;
+}
+
+.links h2 {
+    font-family: 'Roboto';
+    color: bisque;
+    font-weight: bold;
+}
+
+.links a {
+    font-family: 'Roboto';
+    color: bisque;
+    text-decoration: none;
+    font-size: 19px;
+}
+
+.links a:hover {
+    color: blue;
+}
+
+.logo-rodape {
+    width: 250px;
+}
+
+.logo-twitter {
+    width: 47px;
+}
+
+.siga-nos {
+    padding: 10px 20px;
+    display: flex;
+}
+
+.siga-nos a {
+    padding: 7px;
+    margin: 0;
+    color: bisque;
+}
+
+.siga-nos a:hover {
+    color: blue;
+}
+
+.siga-nos h2 {
+    font-family: 'Roboto';
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.sociais {
+    margin-top: 40px;
+}
+
+.sociais h2 {
+    font-family: 'Roboto';
+    color: bisque;
+    font-size: 14px;
+    margin: 10px;
+}
+
+.sociais form {
+    padding: 10px 20px;
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.sociais input[type="email"]::placeholder {
+    color: #B8B3b3;
+    font-weight: bold;
+}
+
+.botao-cadastrar {
+    width: 156px;
+    color: white;
+    background-color: #2633ef;
+    justify-content: space-between;
+    padding: 0.3em;
+}
+
+.botao-cadastrar:hover {
+    background-color: #f80000;
+    color: white;
+}

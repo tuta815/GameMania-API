@@ -10,7 +10,6 @@ export class DetalhesDestaquesService {
 
   url = "http://localhost:3000/detalhesProdutos"
 
-
   constructor(private httpClient: HttpClient) { }
 
   getProdutos(): Observable<Produtos[]> {

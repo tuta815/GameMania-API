@@ -11,31 +11,26 @@
             <div class="input-group">
                 <div class="input-box">
                     <label for="firstname">Primeiro Nome</label>
-                    <input id="firstname" type="text" name="firstname" placeholder="Digite seu primeiro nome" required
-                        [(ngModel)]="UserModel.name">
+                    <input id="firstname" type="text" name="firstname" placeholder="Digite seu primeiro nome" required>
                 </div>
 
                 <div class="input-box">
                     <label for="lastname">Sobrenome</label>
-                    <input id="lastname" type="text" name="lastname" placeholder="Digite seu sobrenome" required
-                        [(ngModel)]="UserModel.lastname">
+                    <input id="lastname" type="text" name="lastname" placeholder="Digite seu sobrenome" required>
                 </div>
                 <div class="input-box">
                     <label for="email">E-mail</label>
-                    <input id="email" type="email" name="email" placeholder="Digite seu e-mail" required
-                        [(ngModel)]="UserModel.email">
+                    <input id="email" type="email" name="email" placeholder="Digite seu e-mail" required>
                 </div>
 
                 <div class="input-box">
                     <label for="number">Celular</label>
-                    <input id="number" type="tel" name="number" placeholder="(xx) xxxx-xxxx" required
-                        [(ngModel)]="UserModel.number">
+                    <input id="number" type="tel" name="number" placeholder="(xx) xxxx-xxxx" required>
                 </div>
 
                 <div class="input-box">
                     <label for="password">Senha</label>
-                    <input id="password" type="password" name="password" placeholder="Digite sua senha" required
-                        [(ngModel)]="UserModel.senha">
+                    <input id="password" type="password" name="password" placeholder="Digite sua senha" required>
                 </div>
 
 
@@ -70,13 +65,13 @@
                 <div class="input-box1">
                     <label for="email1">E-mail</label>
                     <input id="email1" type="email" name="email" placeholder="Digite seu e-mail" required
-                        [(ngModel)]="UserModel.email">
+                        [(ngModel)]="loginModel.email">
                 </div>
 
                 <div class="input-box1">
                     <label for="password1">Senha</label>
                     <input id="password1" type="password" name="password" placeholder="Digite sua senha" required
-                        [(ngModel)]="UserModel.senha">
+                        [(ngModel)]="loginModel.password">
                 </div>
 
             </div>
@@ -87,5 +82,6 @@
                 <button type="submit">Entrar</button>
             </div>
         </form>
+        <p id="mensagem" *ngIf="mensagem != ''">{{ mensagem }}</p>
     </div>
 </div>

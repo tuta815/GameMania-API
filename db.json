@@ -1,46 +1,54 @@
 {
-    "detalhesProdutos": [
-        {
-            "id": 1,
-            "foto": "../../assets/images/notebook.png",
-            "titulo": "Macbook Pro",
-            "preco": 10000,
-            "descricao": "Mussum Ipsum, cacilds vidis litro abertis. Casamentiss faiz malandris se pirulitá."
-        },
-        {
-            "id": 2,
-            "foto": "../../assets/images/headphone.png",
-            "titulo": "Headphone",
-            "preco": 10000,
-            "descricao": "Dormi muito tarde e acordei muito cedo"
-        },
-        {
-            "id": 3,
-            "foto": "../../assets/images/tv.png",
-            "titulo": "Smart TV",
-            "preco": 10000,
-            "descricao": "não é novidade mas temos que noticiair"
-        },
-        {
-            "id": 4,
-            "foto": "../../assets/images/ps5.png",
-            "titulo": "Controle PS5",
-            "preco": 10000,
-            "descricao": "jacaré no seco anda"
-        },
-        {
-            "id": 5,
-            "foto": "../../assets/images/xbox.png",
-            "titulo": "XBOX ONE",
-            "preco": 10000,
-            "descricao": "Por causa dos joguinhos que usam nft"
-        },
-        {
-            "id": 6,
-            "foto": "../../assets/images/imac.png",
-            "titulo": "IMAC",
-            "preco": 10000,
-            "descricao": "tem lugar que ta frio e tem lugar que ta calor"
-        }
-    ]
+  "users": [
+    {
+      "email": "arthur@email.com",
+      "password": "$2a$10$70h4RT.xV3PpRo6K7mpCUusLaUmwremiRt.LMI8hnA4dnh5l38JSG",
+      "nome": "arthur",
+      "id": 1
+    }
+  ],
+  "detalhesProdutos": [
+    {
+      "id": 1,
+      "foto": "../../assets/images/notebook.png",
+      "titulo": "Macbook Pro",
+      "preco": 10000,
+      "descricao": "Mussum Ipsum, cacilds vidis litro abertis. Casamentiss faiz malandris se pirulitá."
+    },
+    {
+      "id": 2,
+      "foto": "../../assets/images/headphone.png",
+      "titulo": "Headphone",
+      "preco": 10000,
+      "descricao": "Dormi muito tarde e acordei muito cedo"
+    },
+    {
+      "id": 3,
+      "foto": "../../assets/images/tv.png",
+      "titulo": "Smart TV",
+      "preco": 10000,
+      "descricao": "não é novidade mas temos que noticiair"
+    },
+    {
+      "id": 4,
+      "foto": "../../assets/images/ps5.png",
+      "titulo": "Controle PS5",
+      "preco": 10000,
+      "descricao": "jacaré no seco anda"
+    },
+    {
+      "id": 5,
+      "foto": "../../assets/images/xbox.png",
+      "titulo": "XBOX ONE",
+      "preco": 10000,
+      "descricao": "Por causa dos joguinhos que usam nft"
+    },
+    {
+      "id": 6,
+      "foto": "../../assets/images/imac.png",
+      "titulo": "IMAC",
+      "preco": 10000,
+      "descricao": "tem lugar que ta frio e tem lugar que ta calor"
+    }
+  ]
 }

@@ -195,6 +195,9 @@ body {
     background-color: #6b63fff1;
 }
 
+#mensagem {
+    color: white;
+}
 
 @media screen and (max-width: 1330px) {
     .form-image {

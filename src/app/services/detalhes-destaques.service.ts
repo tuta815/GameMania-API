@@ -8,7 +8,7 @@ import { Produtos } from '../models/produtos';
 })
 export class DetalhesDestaquesService {
 
-  url = "http://localhost:3000/detalhesProdutos"
+  url = "https://dtbdotuta.herokuapp.com/detalhesProdutos"
 
   constructor(private httpClient: HttpClient) { }
 

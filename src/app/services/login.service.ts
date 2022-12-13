@@ -10,7 +10,7 @@ export class LoginService {
 
   constructor(private httpClient: HttpClient) { }
 
-  url = "http://localhost:3000/login"
+  url = "https://dtbdotuta.onrender.com/users"
 
   login(user: User): Observable<any> {
     return this.httpClient.post(this.url, JSON.stringify(user), {
